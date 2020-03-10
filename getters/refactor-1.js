@@ -13,16 +13,20 @@ const obj2 = {
 }
 
 const obj1Greeting1 = obj1.getGreeting();
-console.assert(obj1Greeting1 === `hi, I'm obj1`, `obj1's greeting is correct (1)`);
+const test1 = obj1Greeting1 === `hi, I'm obj1`;
+console.assert(test1, 'Test 1');
 
 const obj2Greeting1 = __; // fix this line!
-console.assert(obj2Greeting1 === `hi, I'm obj2`, `obj2's greeting is correct (1)`);
+const test2 = obj2Greeting1 === `hi, I'm obj2`;
+console.assert(test2, 'Test 2');
 
 obj1.name = "first";
 obj2.name = "second";
 
 const obj1Greeting2 = obj1.getGreeting();
-console.assert(obj1Greeting2 === `hi, I'm first`, `obj1's greeting is correct (2)`);
+const test3 = obj1Greeting2 === `hi, I'm first`;
+console.assert(test3, 'Test 3');
 
 const obj2Greeting2 = __; // fix this line!
-console.assert(obj2Greeting2 === `hi, I'm second`, `obj2's greeting is correct (2)`);
+const test4 = obj2Greeting2 === `hi, I'm second`;
+console.assert(test4, 'Test 4');
