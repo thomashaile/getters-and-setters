@@ -7,8 +7,8 @@ Learn to refactor your code from standard methods to _getters_ and _setters_.
 * [How to Study](#how-to-study)
   * [index.html](#indexhtml)
 * [What to Study](#what-to-study)
-  * [Examples](./examples)
-  * [Challenges](./challenges)
+  * [Getters](./getters)
+  * [Setters](./setters)
 * [Reviewing Your Work](#reviewing-your-work)
   * [review.js](#reviewjs)
   * [REVIEW.md](#reviewmd)
@@ -31,10 +31,10 @@ Happy studying!
 
 ## What to Study
 
-This repository contains two folders, one is completed examples for you to step through & understand.  The other is exercises for you to solve.
+This repository contains two folders of exercises:
 
-* [Examples](./examples)
-* [Challenges](./challenges)
+  * [Getters](./getters)
+  * [Setters](./setters)
 
 [TOP](#functions-to-methods)
 
